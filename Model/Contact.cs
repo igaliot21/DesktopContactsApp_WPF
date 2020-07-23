@@ -26,5 +26,9 @@ namespace DesktopContactsApp.Model
             this.Email = Email;
             this.Phone = Phone;
         }
+        public override string ToString()
+        {
+            return $"Name: {Name}, Email: {Email}, Phone: {Phone}";
+        }
     }
 }
